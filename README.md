@@ -1,4 +1,4 @@
-# VCR: A Tabular Data Slicing Approach to Understanding Object Detection Model Performance
+# Seeing in Concepts: Enabling Structured Image Representation and Analysis with Visual Concepts
 
 This repository contains code for our [Paper on VCR](/docs/tr.pdf), where we describe a new method for understanding and diagnosing object detection model performance with the use of visual concepts and tabular data slicing. 
 <figure>
