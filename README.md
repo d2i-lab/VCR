@@ -1,6 +1,6 @@
 # Seeing in Concepts: Enabling Structured Image Representation and Analysis with Visual Concepts
 
-This repository contains code for our [Paper on VCR](/docs/tr.pdf), where we describe a new method for understanding and diagnosing object detection model performance with the use of visual concepts and tabular data slicing. 
+This repository contains code for our paper, where we describe a new method for understanding images with visual concepts.
 <figure>
 <img src="/docs/overview.png" height="450">
 <!-- <figcaption>A depiction of the VCR pipeline with image segmentation, concept formation, and data slicing</figcaption> -->
@@ -17,7 +17,7 @@ Specifically this repository contains instructions on how to deploy our interfac
 
 ## Datasets
 For VCR, we use the MS-COCO dataset found [here](https://cocodataset.org). For each image dataset, we additionally require the concept data. 
-To make deployment easier we have packaged COCO 2014 validation data [here (pw=coco-coco)](https://gtvault-my.sharepoint.com/:u:/g/personal/jxu680_gatech_edu/EQ2ujoG_siVDtQsPhig7p9wBqmH9x1M1wcyp25W0Yxvs0g?e=8gNwOP). Please download the data and unzip it accordingly. After extracting, run the following to download COCO 2014 validation directly from the website: `cd coco-dataset/imgs && bash download.sh`.
+To make deployment easier we have packaged COCO 2014 validation data [here (pw=coco-coco)](). Please download the data and unzip it accordingly. After extracting, run the following to download COCO 2014 validation directly from the website: `cd coco-dataset/imgs && bash download.sh`.
 
 ## Object Detection Results
 While we provide COCO 2014 object detection result in the above dataset, users interested in evaluating their own detection results can create their own detection results by following our guide [here](/docs/custom-detections.md). If users want to simply visualize the demo, skip the linked guide.
